@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MySqlConnection con = new MySqlConnection("host=localhost;user=root;password=beykoz;port=3306;database=demo1");
+            MySqlConnection con = new MySqlConnection("host=localhost;user=root;password=xxxxxx;port=3306;database=demo1");
             DataSet ds;
             MySqlDataAdapter da;
             ds = new DataSet();
